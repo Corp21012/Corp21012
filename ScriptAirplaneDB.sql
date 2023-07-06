@@ -6,7 +6,7 @@ CREATE TABLE airplanes (
   seating_capacity INTEGER
 );
 
-CREATE TABLE serial_numbers (
+CREATE TABLE FLEET_DATA (
   id INTEGER PRIMARY KEY,
   airplane_id INTEGER,
   serial_number VARCHAR(255),
